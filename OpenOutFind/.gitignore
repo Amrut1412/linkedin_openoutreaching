@@ -5,10 +5,7 @@ __pycache__/
 .vscode
 .dockerignore
 .env
-.claude
-.claude-plugin
-# …but the vendored OpenOutFind checkout ships its plugin manifests; keep them
-!OpenOutFind/.claude-plugin/
+
 /.coverage
 /venv/
 # Nothing here consumes a lockfile: the production image installs the built package
