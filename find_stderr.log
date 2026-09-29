@@ -1,0 +1,227 @@
+
+   ___                   ___        _                      _
+  / _ \ _ __   ___ _ __ / _ \ _   _| |_ _ __ ___  __ _  ___| |__
+ | | | | '_ \ / _ \ '_ \ | | | | | | __| '__/ _ \/ _` |/ __| '_ \
+ | |_| | |_) |  __/ | | | |_| | |_| | |_| | |  __/ (_| | (__| | | |
+  \___/| .__/ \___|_| |_|\___/ \__,_|\__|_|  \___|\__,_|\___|_| |_|
+       |_|
+
+Operations to perform:
+  Apply all migrations: auth, contenttypes, openoutreach_config, outfind_core, outfind_crm, outsend_core, outsend_emails, outsend_leads, sites
+Running migrations:
+  No migrations to apply.
+[INF] judging with openai_compatible:glm-5.3
+[INF] goal: 10 leads · finding only, no addresses bought
+[INF] Looking for people like:
+[INF]     · head of support at taskrail technology head of support taskrail director project management saas california united states
+[INF]     · customer experience lead at verdant nest retail customer experience lead verdant nest manager e-commerce england united kingdom
+[INF]     · founder and ceo at meterly software founder and ceo meterly founder subscription billing saas ontario canada
+[INF]   · cold phase — 0/3 real positive(s), exploiting the anchors' guess
+[INF] \u25b6 discover
+[INF] \u25b8 headcount 10–500 · job_title manager
+[INF]   ·  bettercontact  req 9e950b7f21a1… · poll 5s \u2264300s …
+[INF]   ·  leadfinder     100 leads · 8,970,844 in the index
+[INF]   \u2713  fetch          60 new lead(s) from 100 row(s)
+[INF] \u25b6 qualify
+[INF]   · no posterior yet — taking the oldest candidate
+[INF]   \u2717  DISQUALIFIED  Rick Nania · Manager - revenue systems salesforce, Business insider — Profile is a Sales/Revenue Operations leader at an online audio/video media company (Business Insider), not a Support, CX, or Support Operations lead at a SaaS or e-commerce company. Their expertise (Salesforce, sales commissions, pipeline management, quota programs) shows no connection to customer support workflows, help centers, or ticket deflection — the core pain points Communicate solves. Role, industry, and function all fall outside the campaign target.
+[INF]   · cold phase — 0/3 real positive(s), exploiting the anchors' guess
+[INF] \u25b6 discover
+[INF] \u25b8 headcount 10–500 · seniority founder
+[INF]   ·  bettercontact  req b4a8aa1f8f3b… · poll 5s \u2264300s …
+[INF]   ·  leadfinder     100 leads · 1,722,379 in the index
+[INF]   \u2713  fetch          67 new lead(s) from 100 row(s)
+[INF] \u25b6 qualify
+[INF] training the ranking model on 4 judged lead(s), 3 of them still synthetic — the slowest thing a run does, please wait
+[INF] ranking model trained on 4 judged lead(s) in 0.1s
+[INF]   · exploit (p) — 1 rejected vs 3 accepted (incl. 3 anchor(s))
+[INF]   \u2717  DISQUALIFIED  Cooper Kalisek · Co-founder, Alphabet — The prospect profile contains almost no usable information — it's a broken LinkedIn badge snippet rather than a real profile. The only parsable details suggest a co-founder at a holding company in Idaho, which is outside our target industries (SaaS and e-commerce, 10–500 employees). There is no evidence of a support function, help center, documented docs, or shared support inbox — the core prerequisites for Communicate to deliver value. Without confirmation of role relevance, company fit, or support-operations pain points, this is not a good outreach prospect.
+[INF]   · cold phase — 0/3 real positive(s), exploiting the anchors' guess
+[INF] \u25b6 discover
+[INF] \u25b8 headcount 10–500 · seniority partner
+[INF]   ·  bettercontact  req c27b840f31d1… · poll 5s \u2264300s …
+[INF]   ·  leadfinder     100 leads · 751,328 in the index
+[INF]   \u2713  fetch          80 new lead(s) from 100 row(s)
+[INF] \u25b6 qualify
+[INF] training the ranking model on 5 judged lead(s), 3 of them still synthetic — the slowest thing a run does, please wait
+[INF] ranking model trained on 5 judged lead(s) in 0.0s
+[INF]   · exploit (p) — 2 rejected vs 3 accepted (incl. 3 anchor(s))
+[INF]   \u2717  DISQUALIFIED  Cihan Gokensel · Franchisee, Anytime fitness — Industry mismatch: this person is a fitness franchisee (Anytime Fitness) and multi-site hospitality/property operator, not a SaaS or e-commerce company. No evidence they run a documented help center or a shared support inbox (Zendesk, Intercom, etc.), and gym/hospitality customer interactions are largely in-person rather than volume-driven ticket queues with documented answers. Even as a founder with decision authority, their business model falls outside the product's best-fit profile.
+[INF]   · cold phase — 0/3 real positive(s), exploiting the anchors' guess
+[INF] \u25b6 discover
+[INF] \u25b8 headcount 10–500 · seniority vp
+[INF]   ·  bettercontact  req 8d31e248c4ec… · poll 5s \u2264300s …
+[INF]   ·  leadfinder     100 leads · 1,129,818 in the index
+[INF]   \u2713  fetch          62 new lead(s) from 100 row(s)
+[INF] \u25b6 qualify
+[INF] training the ranking model on 6 judged lead(s), 3 of them still synthetic — the slowest thing a run does, please wait
+[INF] ranking model trained on 6 judged lead(s) in 0.1s
+[INF]   · exploit (p) — 3 rejected vs 3 accepted (incl. 3 anchor(s))
+[INF]   \u2717  DISQUALIFIED  Michael S · Senior vice president, service & delivery, Bugcrowd — While the prospect is a senior support leader (SVP, Service & Delivery) with clear decision-making authority and high volume (500+ tickets/week, 1M+ interactions), this is a poor fit. Bugcrowd is a late-stage cybersecurity company, not a typical SaaS/e-commerce target, and its support function centers on security triage, validation, and appeals — work requiring expert human judgment on largely unique cases rather than deflectable, documented FAQs. Critically, the profile explicitly states their operations are already 'powered by ai-driven workflows,' meaning they've built a custom internal AI system, which is an explicit weak signal for our campaign.
+[INF]   · cold phase — 0/3 real positive(s), exploiting the anchors' guess
+[INF] \u25b6 discover
+[INF] \u25b8 headcount 10–500 · job_title head
+[INF]   ·  bettercontact  req 798c4ac5a44e… · poll 5s \u2264300s …
+[INF]   ·  leadfinder     100 leads · 1,288,689 in the index
+[INF]   \u2713  fetch          63 new lead(s) from 100 row(s)
+[INF] \u25b6 qualify
+[INF] training the ranking model on 7 judged lead(s), 3 of them still synthetic — the slowest thing a run does, please wait
+[INF] ranking model trained on 7 judged lead(s) in 0.0s
+[INF]   · exploit (p) — 4 rejected vs 3 accepted (incl. 3 anchor(s))
+[INF]   \u2717  DISQUALIFIED  Yacine Kassimy · Entrepreneur indépendant, Business insider — This profile is a sales representative role at an international freight forwarding/logistics staffing company (First Choice Staff) — not a SaaS or e-commerce company. The role is a sales rep, not a Head of Support, CX Lead, or Support Operations Manager, and there is no indication of decision-making authority over support tooling, no help center/shared support inbox signals, and no ticket volume or deflection pain points. It does not match the campaign's target market on any dimension.
+[INF]   · cold phase — 0/3 real positive(s), exploiting the anchors' guess
+[INF] \u25b6 discover
+[INF] \u25b8 headcount 10–500 · job_title head · seniority director
+[INF]   ·  bettercontact  req bd9928b3bf37… · poll 5s \u2264300s …
+[INF]   ·  leadfinder     100 leads · 23,365 in the index
+[INF]   \u2713  fetch          85 new lead(s) from 100 row(s)
+[INF] \u25b6 qualify
+[INF] training the ranking model on 8 judged lead(s), 3 of them still synthetic — the slowest thing a run does, please wait
+[INF] ranking model trained on 8 judged lead(s) in 0.2s
+[INF]   · exploit (p) — 5 rejected vs 3 accepted (incl. 3 anchor(s))
+[INF]   \u2717  DISQUALIFIED  Lesle Litton · Director - head of user experience research, Whatsapp — This prospect is a user experience research / consumer insights leader, not a Head of Support, CX Lead, or Support Operations Manager. Their role focuses on research methods (brand positioning, segmentation, usability testing) rather than managing customer support operations or ticket volume, so they don't own the pain point Communicate solves. Additionally, their experience is at large tech companies (e.g., WhatsApp/Meta), which falls outside the 10-500 employee SaaS/e-commerce target range, and there are no signals of support hiring, help center ownership, or shared support inbox management.
+[INF]   · cold phase — 0/3 real positive(s), exploiting the anchors' guess
+[INF] \u25b6 discover
+[INF] \u25b8 headcount 10–500 · job_title shopify
+[INF]   ·  bettercontact  req 5a50858269f1… · poll 5s \u2264300s …
+[INF]   ·  leadfinder     100 leads · 6,122 in the index
+[INF]   \u2713  fetch          89 new lead(s) from 100 row(s)
+[INF] \u25b6 qualify
+[INF] training the ranking model on 9 judged lead(s), 3 of them still synthetic — the slowest thing a run does, please wait
+[INF] ranking model trained on 9 judged lead(s) in 0.0s
+[INF]   · exploit (p) — 6 rejected vs 3 accepted (incl. 3 anchor(s))
+[INF]   \u2717  DISQUALIFIED  Aaron Smedley · Gm shopify, Cloudinary — Prospect leads the Shopify ecosystem/partnerships at Cloudinary (GM/Manager), not a support or CX function. While Cloudinary is a SaaS company (industry-relevant), this person has no ownership of support operations or customer support tooling decisions, making them a poor fit for a support automation product. Company is also likely at/beyond the target size range and may already run enterprise support infrastructure.
+[INF]   · cold phase — 0/3 real positive(s), exploiting the anchors' guess
+[INF] \u25b6 discover
+[INF] \u25b8 headcount 10–500 · job_title subscription · seniority founder
+[INF]   ·  bettercontact  req a93a69fdfc60… · poll 5s \u2264300s …
+[INF]   ·  leadfinder     9 leads · 9 in the index
+[INF]   \u2713  fetch          9 new lead(s) from 9 row(s)
+[INF] \u25b6 qualify
+[INF] training the ranking model on 10 judged lead(s), 3 of them still synthetic — the slowest thing a run does, please wait
+[INF] ranking model trained on 10 judged lead(s) in 0.1s
+[INF]   · exploit (p) — 7 rejected vs 3 accepted (incl. 3 anchor(s))
+[INF]   \u2717  DISQUALIFIED  Shannon Cowie · Director of product, shopify applications, Narvar — Misaligned persona: this is a Director of Product at Narvar building merchant-facing post-purchase apps, not a support/CX operations leader. The role owns product roadmap, not support tooling decisions. Narvar is also an adjacent CX technology provider (likely larger than the 10–500 employee target) rather than a SaaS/e-commerce company with a support inbox and help center to deflect tickets from. No strong signals (support hiring, ticket volume pain, documented help center) are present.
+[INF]   · cold phase — 0/3 real positive(s), exploiting the anchors' guess
+[INF] \u25b6 discover
+[INF] \u25b8 headcount 10–500 · job_title saas
+[INF]   ·  bettercontact  req d7d7d720279d… · poll 5s \u2264300s …
+[INF]   ·  leadfinder     100 leads · 7,119 in the index
+[INF]   \u2713  fetch          82 new lead(s) from 100 row(s)
+[INF] \u25b6 qualify
+[INF] training the ranking model on 11 judged lead(s), 3 of them still synthetic — the slowest thing a run does, please wait
+[INF] ranking model trained on 11 judged lead(s) in 0.0s
+[INF]   · exploit (p) — 8 rejected vs 3 accepted (incl. 3 anchor(s))
+[INF]   \u2717  DISQUALIFIED  Angelique Clinkscale · Customer success manager b2b saas fintech, Invoicecloud — The prospect is a Customer Success Manager at a B2B SaaS fintech (InvoiceCloud), but the role profile is strategic account management — renewals, director-level relationships, and district/account implementations — not support operations. There are no signals of high-volume repeatable ticket handling, help center ownership, or support agent hiring/deflection pain. Their described work (managing ~100 high-touch strategic accounts) is exactly the "every request is unique and needs human judgment" scenario that is a poor fit for an AI support agent. While the company (SaaS, plausibly 10–500 employees) is tangentially relevant, the role focus does not align with Heads of Support / CX Ops targets.
+[INF]   · cold phase — 0/3 real positive(s), exploiting the anchors' guess
+[INF] \u25b6 discover
+[INF] \u25b8 headcount 10–500 · job_title head support
+[INF]   ·  bettercontact  req bae74a34994c… · poll 5s \u2264300s …
+[INF]   ·  leadfinder     100 leads · 11,357 in the index
+[INF]   \u2713  fetch          74 new lead(s) from 100 row(s)
+[INF] \u25b6 qualify
+[INF] training the ranking model on 12 judged lead(s), 3 of them still synthetic — the slowest thing a run does, please wait
+[INF] ranking model trained on 12 judged lead(s) in 0.0s
+[INF]   · exploit (p) — 9 rejected vs 3 accepted (incl. 3 anchor(s))
+[INF]   \u2713  QUALIFIED     Katya Pekhova · Head of customer support, Joom — Head of Customer Support at an e-commerce/IT services company (Joom, Germany) — exact role match for our target persona. Their stated experience scaling global, AI-enabled support signals high ticket volume, familiarity with AI support tools, and receptiveness to automation. E-commerce support is an ideal fit for an AI agent trained on documented help content. Minor caveat: they may already use an AI solution, but their category experience and decision-making authority make them a strong outreach candidate.
+[INF] \u2605 first lead · 14m29s
+[INF]   ·  1 of 10 leads · 10 seen · 14m29s
+[INF] training the ranking model on 13 judged lead(s), 3 of them still synthetic — the slowest thing a run does, please wait
+[INF] ranking model trained on 13 judged lead(s) in 0.1s
+[INF]   · cold phase — 1/3 real positive(s), exploiting the anchors' guess
+[INF] \u25b6 discover
+[INF] \u25b8 headcount 10–500 · job_title head support · seniority director
+[INF]   ·  bettercontact  req 51fdaefe7fb9… · poll 5s \u2264300s …
+[INF]   ·  leadfinder     100 leads · 124 in the index
+[INF]   \u2713  fetch          66 new lead(s) from 100 row(s)
+[INF] \u25b6 qualify
+[INF]   · exploit (p) — 9 rejected vs 4 accepted (incl. 3 anchor(s))
+[INF]   \u2717  DISQUALIFIED  Marco Ciotti · Head of customer solutions & support, Fortech srl — While the role (Head of Customer Solutions & Support, Director-level, 15+ years) matches our target personas and suggests decision-making authority, the prospect works in the oil and gas industry at Fortech SRL (Italy). Our campaign explicitly targets SaaS and e-commerce companies (10–500 employees) running a documented help center and shared support inbox. There are no signals that this company runs a help center or uses any of the listed support tools (Zendesk, Intercom, Freshdesk, etc.), and oil/gas support is unlikely to fit the 'repeatable documented questions' model our AI agent is built for. Industry mismatch disqualifies this lead.
+[INF]   · cold phase — 1/3 real positive(s), exploiting the anchors' guess
+[INF] \u25b6 discover
+[INF] \u25b8 headcount 10–500 · job_title founder saas
+[INF]   ·  bettercontact  req 059a8018f2eb… · poll 5s \u2264300s …
+[INF]   ·  leadfinder     100 leads · 402 in the index
+[INF]   \u2713  fetch          94 new lead(s) from 100 row(s)
+[INF] \u25b6 qualify
+[INF] training the ranking model on 14 judged lead(s), 3 of them still synthetic — the slowest thing a run does, please wait
+[INF] ranking model trained on 14 judged lead(s) in 0.1s
+[INF]   · exploit (p) — 10 rejected vs 4 accepted (incl. 3 anchor(s))
+[INF]   \u2713  QUALIFIED     Laurie Galardi · Head of customer support, Alltrails — Strong fit: exact ICP role (Head of Customer Support) at AllTrails, a technology company in the target size range, with clear decision authority over support tooling. The profile explicitly highlights a focus on leveraging AI and modern CX strategies to scale support — a direct intent signal for Communicate. AllTrails is a high-volume consumer app where repeat questions (subscriptions, app usage, account issues) are common and a public help center already exists, so the AI agent would have documented content to train on.
+[INF]   ·  2 of 10 leads · 12 seen · 17m45s
+[INF] training the ranking model on 15 judged lead(s), 3 of them still synthetic — the slowest thing a run does, please wait
+[INF] ranking model trained on 15 judged lead(s) in 0.0s
+[INF]   · cold phase — 2/3 real positive(s), exploiting the anchors' guess
+[INF] \u25b6 discover
+[INF] \u25b8 headcount 10–500 · job_title founder saas  · offset 100
+[INF]   ·  bettercontact  req 5f2ce755b3cb… · poll 5s \u2264300s …
+[INF]   ·  leadfinder     100 leads
+[INF]   \u2713  fetch          95 new lead(s) from 100 row(s)
+[INF] \u25b6 qualify
+[INF]   · exploit (p) — 10 rejected vs 5 accepted (incl. 3 anchor(s))
+[INF]   \u2713  QUALIFIED     Wayne Grant · Head of technical support (emea) at deputy, Deputy — Head of Technical Support (EMEA) at Deputy — a workforce management SaaS company — aligns directly with our target persona of support leaders at SaaS companies. 10+ years in customer operations suggests seniority and influence over support tooling decisions. Deputy runs a documented help center and support ops at scale, which fits Communicate's core use case (deflecting repeat questions). Minor caveats: the profile text is garbled ("deputy head software development" could be a parsing artifact), and Deputy's global headcount (~500-800) sits at or slightly above the upper edge of our 10-500 employee target range, though the EMEA scope and support leadership role make outreach worthwhile.
+[INF]   ·  3 of 10 leads · 13 seen · 20m20s
+[INF] training the ranking model on 16 judged lead(s), 3 of them still synthetic — the slowest thing a run does, please wait
+[INF] ranking model trained on 16 judged lead(s) in 0.0s
+[INF] \u25b6 qualify
+[INF]   · exploit (p) — 10 rejected vs 6 accepted (incl. 3 anchor(s))
+[INF]   \u2713  QUALIFIED     Matías Siciliano · Head of customer support, Yoti — Strong fit: The prospect is Head of Customer Support at Yoti, a UK software/tech company, which directly matches our target role (Heads of Support) and industry (SaaS/tech). With 10+ years in customer care operations at startups/tech companies, they clearly have decision-making authority over support tooling. Their stated focus on scalability, costs, and processes aligns precisely with Communicate's value proposition of deflecting repeat questions and reducing support costs. Company size (mid-sized tech firm) fits the 10–500 employee target range, and as a mature tech product company, Yoti almost certainly runs documented help content that our AI can train on.
+[INF]   ·  4 of 10 leads · 14 seen · 20m35s
+[INF] training the ranking model on 17 judged lead(s), 3 of them still synthetic — the slowest thing a run does, please wait
+[INF] ranking model trained on 17 judged lead(s) in 0.1s
+[INF] vocabulary: +1 keyword(s) from 7 qualified profile(s)
+[INF] \u25b6 qualify
+[INF]   · exploit (p) — 10 rejected vs 7 accepted (incl. 3 anchor(s))
+[INF]   \u2713  QUALIFIED     Zornitsa G · Head of support, Dext — Strong fit. The prospect is a Head of Support / Support Operations Manager at Dext, a SaaS/software development company — an exact match for our target personas (Support Operations Managers, Heads of Support at SaaS companies). As Head of Support, they have direct decision-making authority over support tooling. Their profile emphasizes optimizing efficiency, streamlining processes, and leveraging technology in customer service — directly aligned with Communicate's value proposition of automating repeatable questions. SaaS support teams of this type typically run documented help centers and shared inboxes (the core requirement for training the AI agent).
+[INF]   ·  5 of 10 leads · 15 seen · 20m51s
+[INF] training the ranking model on 18 judged lead(s), 3 of them still synthetic — the slowest thing a run does, please wait
+[INF] ranking model trained on 18 judged lead(s) in 0.1s
+[INF] \u25b6 qualify
+[INF]   · exploit (p) — 10 rejected vs 8 accepted (incl. 3 anchor(s))
+[INF]   \u2717  DISQUALIFIED  Rachel Overton-hope · Head of business support, Punch pubs — The prospect holds a senior support leadership role (Head of Business Support, Punch Pubs), which loosely matches the target title, but the fit fails on key criteria: (1) Industry mismatch — Punch Pubs is a UK hospitality/pub company, not SaaS or e-commerce as specified in the campaign target; (2) Company size — Punch Pubs is a large pub operator, likely well above the 10–500 employee range; (3) Channel mix — the profile emphasizes telephony and face-to-face support, with no signals of a documented help center or a shared support inbox (Zendesk, Intercom, Freshdesk, etc.) that Communicate would train on. Strong decision authority, but poor product and market fit.
+[INF] training the ranking model on 19 judged lead(s), 3 of them still synthetic — the slowest thing a run does, please wait
+[INF] ranking model trained on 19 judged lead(s) in 0.1s
+[INF] \u25b6 qualify
+[INF]   · exploit (p) — 11 rejected vs 8 accepted (incl. 3 anchor(s))
+[INF]   \u2713  QUALIFIED     Elena Moshchenko · Director of customer operations head of customer support, Solar staff — Strong fit. The prospect is Head of Customer Support / Director of Customer Operations at Solar Staff (fintech payment platform, ~10-500 employee range), which directly matches our target roles (Heads of Support, Support Ops leads at SaaS/platform companies). With 20+ years in ops leadership and having built and scaled a global support organization, they clearly have decision-making authority over support tooling. Fintech payment platforms generate high volumes of repeatable, documented questions (payout status, KYC requirements, account issues) and compliance-driven operations typically rely on documented help centers — an ideal training ground for Communicate. Minor caveat: industry is fintech rather than pure SaaS/e-commerce, and some compliance cases need human judgment, but the human-handoff model covers that.
+[INF]   ·  6 of 10 leads · 17 seen · 21m35s
+[INF] training the ranking model on 20 judged lead(s), 3 of them still synthetic — the slowest thing a run does, please wait
+[INF] ranking model trained on 20 judged lead(s) in 0.1s
+[INF] \u25b6 qualify
+[INF]   · exploit (p) — 11 rejected vs 9 accepted (incl. 3 anchor(s))
+[INF]   \u2713  QUALIFIED     Jacob Rosales-hunt · Head of support, Smule — Strong fit: exact target persona (Head of Support) at a SaaS/software company (Smule) with a large multilingual consumer base — implying high repeat-ticket volume ideal for AI deflection. Uses Zendesk (supported inbox), and their stated focus on cutting first-response/resolution times by 75% maps directly to Communicate's value proposition. Seniority implies decision-making authority over support tooling.
+[INF]   ·  7 of 10 leads · 18 seen · 21m53s
+[INF] training the ranking model on 21 judged lead(s), 3 of them still synthetic — the slowest thing a run does, please wait
+[INF] ranking model trained on 21 judged lead(s) in 0.1s
+[INF] vocabulary: +1 keyword(s) from 10 qualified profile(s)
+[INF] \u25b6 qualify
+[INF]   · exploit (p) — 11 rejected vs 10 accepted (incl. 3 anchor(s))
+[INF]   \u2717  DISQUALIFIED  Bob Oelschlager · Head of technical support, Nozomi networks — Role title (Head of Technical Support) matches our persona and the person likely has purchasing influence, but the employer (Nozomi Networks) is an enterprise cybersecurity company likely exceeding our 500-employee target with a highly technical customer base. Enterprise teams like this often run custom-built support/AI tooling (a weak signal), and the profile shows no evidence of a documented help center or standard shared inbox (Zendesk, Intercom, Freshdesk, etc.) that our product trains on. Poor campaign fit despite the title match.
+[INF] training the ranking model on 22 judged lead(s), 3 of them still synthetic — the slowest thing a run does, please wait
+[INF] ranking model trained on 22 judged lead(s) in 0.1s
+[INF] \u25b6 qualify
+[INF]   · exploit (p) — 12 rejected vs 10 accepted (incl. 3 anchor(s))
+[INF]   \u2717  DISQUALIFIED  Ingo Schulz · Head of customer support new markets, Loveholidays — While the title "Head of Customer Support" matches our target persona, the fit breaks down on company profile. Loveholidays is a large enterprise online travel agency (well beyond the 10–500 employee range), and large travel companies typically have mature support stacks and often build or procure enterprise-grade AI internally (a weak signal for us). The industry is travel/BPO, not the SaaS/e-commerce core, and the profile contains no signals of documented help center content, a shared-inbox tool, or deflection/ticket-volume pain that our lightweight, self-serve widget is built for. The candidate's BPO/outsourcing background suggests a human-agent-scaled operation rather than a docs-driven self-service team.
+[INF] training the ranking model on 23 judged lead(s), 3 of them still synthetic — the slowest thing a run does, please wait
+[INF] ranking model trained on 23 judged lead(s) in 0.0s
+[INF] \u25b6 qualify
+[INF]   · exploit (p) — 13 rejected vs 10 accepted (incl. 3 anchor(s))
+[INF]   \u2713  QUALIFIED     Scott Chaykin · Head of customer success and support, Sentry — Strong fit: Scott is Head of Customer Success and Support at Sentry, a software/SaaS company within the 10–500 employee range. His title directly matches our target persona (Heads of Support/CX), and he likely holds decision-making authority over support tooling. Sentry is a developer-tools company that maintains extensive public documentation — ideal training material for Communicate. His track record of scaling global customer operations signals exactly the repeatable-ticket-volume and deflection pain points we solve.
+[INF]   ·  8 of 10 leads · 21 seen · 23m12s
+[INF] training the ranking model on 24 judged lead(s), 3 of them still synthetic — the slowest thing a run does, please wait
+[INF] ranking model trained on 24 judged lead(s) in 0.1s
+[INF] \u25b6 qualify
+[INF]   · exploit (p) — 13 rejected vs 11 accepted (incl. 3 anchor(s))
+[INF]   \u2713  QUALIFIED     Ryan Couch · Head of technical support, Anydesk software — Strong fit. The prospect is Head of Technical Support at AnyDesk, a software/SaaS company — an exact match for our target persona (support leadership). They oversee four global regional teams in a follow-the-sun model, indicating high ticket volume and a real cost/pain point that Communicate's AI deflection addresses. AnyDesk is a technical product with many repeatable questions (setup, licensing, connectivity) and runs a well-documented public help center, which is a strong signal for training the AI agent. They clearly have decision-making authority over support tooling. Company size (~200-300 employees) falls within the 10-500 target range. Minor caveat: their maturity raises the possibility of an existing or custom AI solution, but the core profile aligns strongly with the campaign target.
+[INF]   ·  9 of 10 leads · 22 seen · 23m33s
+[INF] training the ranking model on 25 judged lead(s), 3 of them still synthetic — the slowest thing a run does, please wait
+[INF] ranking model trained on 25 judged lead(s) in 0.1s
+[INF] vocabulary: +1 keyword(s) from 12 qualified profile(s)
+[INF] \u25b6 qualify
+[INF]   · exploit (p) — 13 rejected vs 12 accepted (incl. 3 anchor(s))
+[INF]   \u2713  QUALIFIED     Allie Hurley · Head of support, Ashby — Strong fit: The prospect is a Head of Support at Ashby, a software/SaaS company — exactly the target persona (Head of Support at SaaS companies). They emphasize documented, deliberate decision-making and a passion for AI + human-driven CX, indicating both an existing documentation culture (something to train on) and active interest in AI support tooling. Experience in hyper-growth orgs and managing scaling teams (domestic and offshore) suggests headcount pain and repeatable ticket volume — key buying signals. Head of Support role carries decision-making authority over support tooling.
+[INF]   ·  10 of 10 leads · 23 seen · 23m45s
+[INF] 10 of 10 leads · 23m45s · 10 row(s) printed
+[INF] Next: 10 qualified lead(s) ready.
+  unlocks: a CSV your sequencer imports without column mapping
+  run: outfind find 0 > leads.csv
